@@ -7,27 +7,27 @@ Before running the app, make sure you have the following installed:
 - Redis: Redis should be installed and running on the default port (6379) on your local machine. You can install Redis using the method of your choice (e.g., Homebrew on macOS, apt on Ubuntu, or Redis downloads for Windows).
 
 ## Installation
-1. Clone the repository:
+1. ### Clone the repository:
 ```bash
 git clone https://github.com/kxng0109/github-repo-cache-app.git
 cd github-repo-cache-app
 ```
 
-2. Install the dependencies:
+2. ### Install the dependencies:
 ``` bash
 npm install
 ```
 
-3. Install Redis (if not already installed):
+3. ### Install Redis (if not already installed):
 Check the <a href="https://redis.io/docs/latest/operate/oss_and_stack/install/install-redis/" target="_blank">official docs here</a>.
 
-4. Start Redis server:
+4. ### Start Redis server:
 Make sure Redis is running on the default port (`6379`) or you can modify change te value using the `.env` file, check the next step below.
 ```bash
 redis-server
 ```
 
-5. Set up the .env file:
+5. ### Set up the .env file:
 Create a .env file in the root of your project and configure the following environment variables:
 
 ```plaintext
@@ -37,7 +37,7 @@ REDIS_PORT=<port_your_redis_server_is_running_on>
 PORT: The port where the Express app will run (default is 3000).
 REDIS_PORT: The port where Redis is running (default is 6379).
 
-6. Start the app server:
+6. ### Start the app server:
 After Redis is running, you can start the Node.js server:
 ```bash
 npm run dev
