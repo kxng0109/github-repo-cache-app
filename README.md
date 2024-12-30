@@ -4,7 +4,7 @@ This simple app allows users to fetch the number of public repositories from a G
 ## Prerequisites
 Before running the app, make sure you have the following installed:
 - Node.js (v14 or higher)
-- Redis: Redis should be installed and running on the default port (6379) on your local machine. You can install Redis using the method of your choice (e.g., Homebrew on macOS, apt on Ubuntu, or Redis downloads for Windows).
+- Redis: Redis should be installed and running on the default port (6379) on your local machine. You can install Redis using the method of your choice.
 
 ## Installation
 ### Clone the repository:
